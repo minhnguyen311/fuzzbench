@@ -1,0 +1,505 @@
+repo_name: minhnguyen311/fuzzbench
+report_id: 52bc0c22b6109ada07cb20040e8d61b0
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:22:13+00:00'
+requested_by: tokatoka
+provider: github
+branch: master
+detected_tools_count: 38
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2020-02-24 21:31:29.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.20.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.3.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.4.41
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/.github/workflows/benchmarks.yml
+  detection_source: ".github/workflows/benchmarks.yml"
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-02-07 21:57:11.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2020-02-24 21:31:29.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.15.4
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2020-02-24 21:31:29.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.23.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2020-02-24 21:31:29.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  version: 1.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2020-02-24 21:31:29.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/benchmarks/libxslt_xpath/Dockerfile
+  detection_source: benchmarks/libxslt_xpath/Dockerfile
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.64.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: google-cloud-error-reporting
+  description: Stackdriver Error Reporting API client library
+  package_url: https://pypi.org/project/google-cloud-error-reporting
+  version: 1.6.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: google-cloud-logging
+  description: Stackdriver Logging API client library
+  package_url: https://pypi.org/project/google-cloud-logging
+  version: 3.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20551/default_2bd6b1bbea25e0422bf129a726728cd8e73433f2.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 1.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.4
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: pyfakefs
+  description: Pyfakefs implements a fake file system that mocks the Python file system
+    modules
+  package_url: https://pypi.org/project/pyfakefs
+  version: 5.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2020.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: rq
+  description: RQ is a simple
+  package_url: https://pypi.org/project/rq
+  version: 1.11.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20393/default_ec7f908dc4ac3533950df7d8e371292c0bdc3812.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2020-02-24 21:31:29.000000000 Z
+- name: seaborn
+  description: 'Seaborn: statistical data visualization'
+  package_url: https://pypi.org/project/seaborn
+  version: 0.12.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: yapf
+  description: A formatter for Python code
+  package_url: https://pypi.org/project/yapf
+  version: 0.32.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20399/default_27c957eac1674813a0a457a78f430be9e3c184a7.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dongge Liu
+  last_updated_on: 2022-12-05 00:27:00.000000000 Z
+- name: github-pages
+  description: Bootstrap the GitHub Pages Jekyll environment locally
+  package_url: https://rubygems.org/github-pages
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/minhnguyen311/fuzzbench/blob/master/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2020-02-24 21:31:29.000000000 Z
